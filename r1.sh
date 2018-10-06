@@ -1,8 +1,3 @@
-#PBS -N cf3_r1
-#PBS -l nodes=1:ppn=20
-#PBS -q batch 
-#PBS -V  
-cd  $PBS_O_WORKDIR
 #begin that pipeline, install bismark, and use bismark_genome_preparation for index preparation
 #pay attention: --ambiguous only use for static, remove in final version and the temp file , rm command
 begin_time=$(date "+%s")  #record the program start time
