@@ -20,7 +20,7 @@ while(<LI2>)
 }
 close LI2;
 open FA,"<$ARGV[0].50map" or die "$!";
-open OUT,">$ARGV[0].$ARGV[2]1" or die "$!";
+open OUT,">$ARGV[0].$ARGV[2]" or die "$!";
 while(<FA>)
 {
     chomp;
