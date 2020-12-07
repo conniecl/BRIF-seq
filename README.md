@@ -1,5 +1,5 @@
-# BRIF-seq
-bisulfite-converted randomly integrated fragments sequencing at single cell level
+# BRIF-MAP
+Analysis tool for bisulfite-converted randomly integrated fragments sequencing method
 
 
 ## Requirements
@@ -8,7 +8,7 @@ bisulfite-converted randomly integrated fragments sequencing at single cell leve
 - bowtie2
 
 Installation
-To run the BRIF-seq processing, run the following commands from your teminal:
+To run the BRIF-MAP, run the following commands from your teminal:
 ```
 git clone git@github.com:conniecl/BRIF-seq.git
 ```
