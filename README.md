@@ -26,3 +26,6 @@ deduplicate_bismark -s CF3.bam --bam
 samtools sort CF3.deduplicated.bam CF3.deduplicated.sort
 bismark_methylation_extractor CF3.deduplicated.sort.bam --cytosine_report --genome_folder /public/home/lchen/v3.29_index/b2_index/ --CX
 ```
+
+## Citation
+Li X, Chen L, Zhang Q, Sun Y, Li Q, Yan J. BRIF-Seq: Bisulfite-Converted Randomly Integrated Fragments Sequencing at the Single-Cell Level. Mol Plant. 2019 Mar 4;12(3):438-446. doi: 10.1016/j.molp.2019.01.004. Epub 2019 Jan 11. PMID: 30639749.
